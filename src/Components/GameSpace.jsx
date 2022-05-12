@@ -2,7 +2,6 @@ import { HubConnectionBuilder, LogLevel } from '@microsoft/signalr';
 import GameBoard from './GameBoard.jsx'
 import Lobby from './Lobby.jsx';
 import './GameSpace.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { useState } from 'react';
 
 const GameSpace = () => {

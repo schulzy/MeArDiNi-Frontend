@@ -1,0 +1,45 @@
+table{
+    border-collapse:separate; 
+    border-spacing:0.5em;
+    border: red;
+}
+
+td{
+    background-color: #a85e4cd5;
+    width: 3em;
+    height: 3em;
+    border: 3em;
+}
+
+.emptyField{
+    background-color: rgb(208, 221, 30);
+}
+
+.runningField,
+.blueField,
+.redField,
+.yellowField,
+.greenField{
+    height:3em;
+    border-radius:50%;
+    width:3em;
+}
+
+.runningField{
+    background-color: #a8e5e9;
+}
+.blueField{
+    background-color: #c9c616;
+}
+
+.redField{
+    background-color: #701639;
+}
+
+.yellowField{
+    background-color: #881178;
+}
+
+.greenField{
+    background-color: #26c588;
+}  
